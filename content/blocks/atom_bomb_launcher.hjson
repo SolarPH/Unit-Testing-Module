@@ -1,0 +1,23 @@
+name: Atom Launcher
+description: Test Launcher for AtomBomber
+
+type: UnitFactory
+
+produceTime: 1
+launchVelocity: 10
+maxSpawn: 10
+unitType: atom_bomber
+
+health: 40
+
+consumes: {
+  power: 0.1
+}
+
+requirements: [
+	silicon/0
+]
+
+category: units
+size: 2
+research: core-shard

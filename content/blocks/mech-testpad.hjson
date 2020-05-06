@@ -1,0 +1,19 @@
+name: MechUpgrade
+description: A Test UnitSpawner
+
+type: MechPad
+
+mech: playable-mech-command
+
+health: 20
+
+consumes: {
+  power: 0.1
+}
+
+requirements: [
+	silicon/10
+]
+
+category: units
+size: 3
